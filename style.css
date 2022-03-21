@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(15, 14, 14);
+    display:flex;
+    flex-direction: column;
+}
+#row-1{
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px;
+}
+#row-2{
+    background-color: rgb(37, 37, 37)n;
+    display: flex;
+    justify-content: space-around;
+}
+#navigation-bar{
+    background-color: aqua;
+}
+#video{
+    display: flex;
+    flex-direction: column;
+}
+#video-desc{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#video-desc p{
+    color: white;
+    font-size: small;
+}
+#section-1{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: white;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: gray;
+    background-color: rgb(255, 255, 255) ;
+  }
+.sug{
+    width: 100px;
+    height: 100px;
+}
